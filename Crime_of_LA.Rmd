@@ -23,7 +23,7 @@ library(dplyr)
 if (!require('devtools')) install.packages('devtools')
 devtools::install_github('rstudio/leaflet')
 
-crime_data=read.csv('/Users/tanzhenyu/Desktop/Stat847/Crime_Data_from_2010_to_Present.csv',header = T)
+crime_data=read.csv('/Users/tanzhenyu/Desktop/Crime_Data_from_2010_to_Present.csv',header = T)
 dim(crime_data)# dimension of the data
 
 crime_cleaned=crime_data[,-c(1,5,6,7,8,14,16,18,20,21,22,23,25)]#delete the columns that are not important with too many missing values or is the code representation of the description part 
