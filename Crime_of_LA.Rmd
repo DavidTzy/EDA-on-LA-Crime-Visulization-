@@ -1,6 +1,6 @@
 ---
-title: "STAT847project Crime Analysis of Los Angeles"
-author: "Zhenyu Tan 20697649"
+title: "Crime Analysis of Los Angeles"
+author: "Zhenyu Tan "
 date: "2018/3/19"
 output:
   html_document:
