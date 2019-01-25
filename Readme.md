@@ -5,6 +5,6 @@ In this analysis, I use plotly, worldcloud and ggplot to summarize a lot of info
 
 However, the most useful stuff I guess is the map I generated using leaflet, they point out some dangerous places in LA (like heated points for rape, children crimes etc.) while the color of the icon stands for the level of danger.
 
-The language is R, but ggplot,plotly and leaflet they are also available in other languages like python with some minor difference.
+The language is R, but ggplot,plotly and leaflet they are also available in other languages like python with some minor differences.
 
 
