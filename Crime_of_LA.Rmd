@@ -27,7 +27,7 @@ devtools::install_github('rstudio/leaflet')
 crime_data=read.csv('/Users/tanzhenyu/Desktop/Crime_Data_from_2010_to_Present.csv',header = T)
 dim(crime_data)# dimension of the data
 
-crime_cleaned=crime_data[,-c(1,5,6,7,8,14,16,18,20,21,22,23,25)]#delete the columns that are not important with too many missing values or is the code representation of the description part 
+crime_cleaned = crime_data[,-c(1,5,6,7,8,14,16,18,20,21,22,23,25)]#delete the columns that are not important with too many missing values or is the code representation of the description part 
 
 ```
 
@@ -48,7 +48,7 @@ As shwon, there are no missing values in time features, thus here the crime hour
 crime_hour=rep(0,nrow(crime_cleaned))
 for(i in 1:nrow(crime_cleaned))
 {
-  if(crime_cleaned$Time.Occurred[i]>999)
+  if(crime_cleaned$Time.Occurred[i]>1000)
   {crime_hour[i]=as.numeric(substr(as.character(crime_cleaned$Time.Occurred[i]),1,2))
   }else{
   crime_hour[i]=as.numeric(substr(as.character(crime_cleaned$Time.Occurred[i]),1,1))
