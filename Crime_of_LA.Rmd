@@ -86,7 +86,7 @@ As shown there are 398 missing values here in the crime description part, since 
 ##Top 5 crimes 
 
 
-Let's first starts with some interesting facts,what are the top 5 crimes in Los Angeles, this analysis is based on all data from 2010.Jan~2018.Feb.
+Let's first starts with some interesting facts, what are the top 5 crimes in Los Angeles, this analysis is based on all data from 2010/Jan~2018/Feb.
 
 ```{r}
 #plot setting
