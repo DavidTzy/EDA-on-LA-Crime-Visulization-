@@ -10,8 +10,9 @@ output:
 ---
 
 
-Los Angeles is one of the largest cities in American with huge amount of population.Crime, as one of the important topics for all the huge cities, is also gained attention from the public in Los Angeles.This project will focus on this social-concerned issue and get some insights of it. There are mainly four sections in this paper:Crime Overview, Victim Analysis,Criminal Activities Analysis and Comparison with Crimes in Vancouver.
-The detailed analysis is shown as below.
+
+Los Angeles is one of the largest cities in American with huge amount of population. Crime, as one of the important topics for all the huge cities, is also gained attention from the public in Los Angeles.This project will focus on this social-concerned issue and get some insights of it. There are mainly four sections in this paper:Crime Overview, Victim Analysis,Criminal Activities Analysis and Comparison with Crimes in Vancouver.
+Detailed analysis is shown as below.
 
 
 #Data Preprocessing
